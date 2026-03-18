@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/carabiner-dev/ampel/internal/cmd"
+	"github.com/carabiner-labs/ampel-stable/internal/cmd"
 )
 
 func main() {

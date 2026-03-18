@@ -10,7 +10,7 @@ import (
 	papi "github.com/carabiner-dev/policy/api/v1"
 	"github.com/jedib0t/go-pretty/v6/table"
 
-	"github.com/carabiner-dev/ampel/internal/drivers/gotable"
+	"github.com/carabiner-labs/ampel-stable/internal/drivers/gotable"
 )
 
 func New() *Driver {

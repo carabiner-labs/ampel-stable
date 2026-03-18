@@ -8,8 +8,8 @@ import (
 	papi "github.com/carabiner-dev/policy/api/v1"
 	"github.com/google/cel-go/cel"
 
-	api "github.com/carabiner-dev/ampel/pkg/api/v1"
-	"github.com/carabiner-dev/ampel/pkg/evaluator/class"
+	api "github.com/carabiner-labs/ampel-stable/pkg/api/v1"
+	"github.com/carabiner-labs/ampel-stable/pkg/evaluator/class"
 )
 
 type Plugin struct {

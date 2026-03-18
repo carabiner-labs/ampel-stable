@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/carabiner-dev/ampel/pkg/evaluator/options"
+	"github.com/carabiner-labs/ampel-stable/pkg/evaluator/options"
 )
 
 func TestPolicySetExpiration(t *testing.T) {

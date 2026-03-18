@@ -12,9 +12,9 @@ import (
 	"github.com/carabiner-dev/attestation"
 	"github.com/sirupsen/logrus"
 
-	"github.com/carabiner-dev/ampel/pkg/transformer/protobom"
-	"github.com/carabiner-dev/ampel/pkg/transformer/vex"
-	"github.com/carabiner-dev/ampel/pkg/transformer/vulnreport"
+	"github.com/carabiner-labs/ampel-stable/pkg/transformer/protobom"
+	"github.com/carabiner-labs/ampel-stable/pkg/transformer/vex"
+	"github.com/carabiner-labs/ampel-stable/pkg/transformer/vulnreport"
 )
 
 // Ensure the loaded drivers implement the transformers interface

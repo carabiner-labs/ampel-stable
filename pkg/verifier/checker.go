@@ -6,7 +6,7 @@ import (
 
 	"github.com/carabiner-dev/attestation"
 
-	"github.com/carabiner-dev/ampel/pkg/oscal"
+	"github.com/carabiner-labs/ampel-stable/pkg/oscal"
 )
 
 type defaultStatusChecker struct{}

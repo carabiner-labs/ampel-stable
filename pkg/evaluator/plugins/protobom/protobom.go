@@ -16,8 +16,8 @@ import (
 	"github.com/protobom/protobom/pkg/reader"
 	"github.com/sirupsen/logrus"
 
-	api "github.com/carabiner-dev/ampel/pkg/api/v1"
-	"github.com/carabiner-dev/ampel/pkg/evaluator/class"
+	api "github.com/carabiner-labs/ampel-stable/pkg/api/v1"
+	"github.com/carabiner-labs/ampel-stable/pkg/evaluator/class"
 )
 
 func New() *Plugin {

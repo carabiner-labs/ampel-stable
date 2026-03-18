@@ -10,7 +10,7 @@ import (
 
 	papi "github.com/carabiner-dev/policy/api/v1"
 
-	"github.com/carabiner-dev/ampel/pkg/verifier"
+	"github.com/carabiner-labs/ampel-stable/pkg/verifier"
 )
 
 func New() *Driver {

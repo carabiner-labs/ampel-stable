@@ -16,15 +16,15 @@ import (
 	"google.golang.org/protobuf/types/known/structpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	api "github.com/carabiner-dev/ampel/pkg/api/v1"
-	"github.com/carabiner-dev/ampel/pkg/evaluator/class"
-	"github.com/carabiner-dev/ampel/pkg/evaluator/evalcontext"
-	"github.com/carabiner-dev/ampel/pkg/evaluator/options"
-	"github.com/carabiner-dev/ampel/pkg/evaluator/plugins/github"
-	"github.com/carabiner-dev/ampel/pkg/evaluator/plugins/hasher"
-	"github.com/carabiner-dev/ampel/pkg/evaluator/plugins/protobom"
-	"github.com/carabiner-dev/ampel/pkg/evaluator/plugins/purl"
-	"github.com/carabiner-dev/ampel/pkg/evaluator/plugins/url"
+	api "github.com/carabiner-labs/ampel-stable/pkg/api/v1"
+	"github.com/carabiner-labs/ampel-stable/pkg/evaluator/class"
+	"github.com/carabiner-labs/ampel-stable/pkg/evaluator/evalcontext"
+	"github.com/carabiner-labs/ampel-stable/pkg/evaluator/options"
+	"github.com/carabiner-labs/ampel-stable/pkg/evaluator/plugins/github"
+	"github.com/carabiner-labs/ampel-stable/pkg/evaluator/plugins/hasher"
+	"github.com/carabiner-labs/ampel-stable/pkg/evaluator/plugins/protobom"
+	"github.com/carabiner-labs/ampel-stable/pkg/evaluator/plugins/purl"
+	"github.com/carabiner-labs/ampel-stable/pkg/evaluator/plugins/url"
 )
 
 var Class = class.Class("cel@v0")

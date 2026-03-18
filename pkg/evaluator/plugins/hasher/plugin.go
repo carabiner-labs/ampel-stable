@@ -9,8 +9,8 @@ import (
 	"github.com/google/cel-go/cel"
 	intoto "github.com/in-toto/attestation/go/v1"
 
-	api "github.com/carabiner-dev/ampel/pkg/api/v1"
-	"github.com/carabiner-dev/ampel/pkg/evaluator/class"
+	api "github.com/carabiner-labs/ampel-stable/pkg/api/v1"
+	"github.com/carabiner-labs/ampel-stable/pkg/evaluator/class"
 )
 
 type Plugin struct {

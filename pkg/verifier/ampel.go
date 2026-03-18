@@ -11,7 +11,7 @@ import (
 	"github.com/carabiner-dev/collector"
 	"github.com/carabiner-dev/signer/key"
 
-	"github.com/carabiner-dev/ampel/pkg/oscal"
+	"github.com/carabiner-labs/ampel-stable/pkg/oscal"
 )
 
 var ErrMissingAttestations = errors.New("required attestations missing to verify subject")

@@ -11,9 +11,9 @@ import (
 	"github.com/carabiner-dev/attestation"
 	"github.com/carabiner-dev/signer/key"
 
-	"github.com/carabiner-dev/ampel/pkg/context"
-	"github.com/carabiner-dev/ampel/pkg/evaluator/class"
-	"github.com/carabiner-dev/ampel/pkg/evaluator/options"
+	"github.com/carabiner-labs/ampel-stable/pkg/context"
+	"github.com/carabiner-labs/ampel-stable/pkg/evaluator/class"
+	"github.com/carabiner-labs/ampel-stable/pkg/evaluator/options"
 )
 
 var ResultsAttestationFormats = []string{

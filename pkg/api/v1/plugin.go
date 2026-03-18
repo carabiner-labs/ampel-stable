@@ -6,7 +6,7 @@ package v1
 import (
 	"reflect"
 
-	"github.com/carabiner-dev/ampel/pkg/evaluator/class"
+	"github.com/carabiner-labs/ampel-stable/pkg/evaluator/class"
 )
 
 type Capability string

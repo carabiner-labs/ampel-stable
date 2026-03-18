@@ -24,9 +24,9 @@ import (
 	"github.com/spf13/cobra"
 	"sigs.k8s.io/release-utils/helpers"
 
-	"github.com/carabiner-dev/ampel/internal/render"
-	acontext "github.com/carabiner-dev/ampel/pkg/context"
-	"github.com/carabiner-dev/ampel/pkg/verifier"
+	"github.com/carabiner-labs/ampel-stable/internal/render"
+	acontext "github.com/carabiner-labs/ampel-stable/pkg/context"
+	"github.com/carabiner-labs/ampel-stable/pkg/verifier"
 )
 
 var (

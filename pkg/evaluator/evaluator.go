@@ -10,9 +10,9 @@ import (
 	"github.com/carabiner-dev/attestation"
 	papi "github.com/carabiner-dev/policy/api/v1"
 
-	"github.com/carabiner-dev/ampel/pkg/evaluator/cel"
-	"github.com/carabiner-dev/ampel/pkg/evaluator/class"
-	"github.com/carabiner-dev/ampel/pkg/evaluator/options"
+	"github.com/carabiner-labs/ampel-stable/pkg/evaluator/cel"
+	"github.com/carabiner-labs/ampel-stable/pkg/evaluator/class"
+	"github.com/carabiner-labs/ampel-stable/pkg/evaluator/options"
 )
 
 // Ensure the known evaluators satisfy the interface

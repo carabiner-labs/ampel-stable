@@ -10,12 +10,12 @@ import (
 
 	papi "github.com/carabiner-dev/policy/api/v1"
 
-	"github.com/carabiner-dev/ampel/internal/drivers/attester"
-	"github.com/carabiner-dev/ampel/internal/drivers/html"
-	"github.com/carabiner-dev/ampel/internal/drivers/markdown"
-	"github.com/carabiner-dev/ampel/internal/drivers/svr"
-	"github.com/carabiner-dev/ampel/internal/drivers/tty"
-	"github.com/carabiner-dev/ampel/internal/drivers/vsa"
+	"github.com/carabiner-labs/ampel-stable/internal/drivers/attester"
+	"github.com/carabiner-labs/ampel-stable/internal/drivers/html"
+	"github.com/carabiner-labs/ampel-stable/internal/drivers/markdown"
+	"github.com/carabiner-labs/ampel-stable/internal/drivers/svr"
+	"github.com/carabiner-labs/ampel-stable/internal/drivers/tty"
+	"github.com/carabiner-labs/ampel-stable/internal/drivers/vsa"
 )
 
 type driversList map[string]Driver

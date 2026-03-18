@@ -25,7 +25,7 @@ import (
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/carabiner-dev/ampel/internal/index"
+	"github.com/carabiner-labs/ampel-stable/internal/index"
 )
 
 const ClassName = "vex"

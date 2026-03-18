@@ -1,4 +1,4 @@
-module github.com/carabiner-dev/ampel
+module github.com/carabiner-labs/ampel-stable
 
 go 1.26.1
 

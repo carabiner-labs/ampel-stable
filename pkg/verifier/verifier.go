@@ -21,9 +21,9 @@ import (
 	"google.golang.org/protobuf/types/known/structpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/carabiner-dev/ampel/pkg/evaluator"
-	"github.com/carabiner-dev/ampel/pkg/evaluator/class"
-	"github.com/carabiner-dev/ampel/pkg/evaluator/evalcontext"
+	"github.com/carabiner-labs/ampel-stable/pkg/evaluator"
+	"github.com/carabiner-labs/ampel-stable/pkg/evaluator/class"
+	"github.com/carabiner-labs/ampel-stable/pkg/evaluator/evalcontext"
 )
 
 type PolicyError struct {
